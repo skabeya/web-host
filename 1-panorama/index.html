@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html data-type="example" data-id="panorama-click-free">
+  <head>
+    <title>jQuery Reel Orientable Stitched Panorama Example</title>
+    <meta charset='utf-8' content='text/html' http-equiv='Content-type' />
+
+    <script src='http://code.jquery.com/jquery-1.9.1.min.js' type='text/javascript'></script>
+    <script src='../../jquery.reel.js' type='text/javascript'></script>
+
+    <!-- Common examples style (gray background, thin fonts etc.) -->
+    <link href="../style.css" rel="stylesheet" type="text/css" />
+
+    <style>
+      #image-reel{ font-size: 85%; }
+      #image-reel .reel-annotation { color: #6a7587; white-space: nowrap; font-weight: bold; font-size: 108%; color: #6a7587; cursor: help; }
+      #image-reel a.reel-annotation { color: #6a7587; }
+      #image-reel .far.reel-annotation { font-size: 85%; color: #a3b4bc; }
+      #image-reel a.far.reel-annotation { color: #a3b4bc; }
+      #image-reel .near.reel-annotation { font-size: 163%; color: #fff5de; }
+      #image-reel a.near.reel-annotation { color: #fff5de; }
+      #image-reel .title.reel-annotation { font-size: 85%; color: white; }
+      #image-reel a.title.reel-annotation { color: white; }
+      #image-reel .headline.reel-annotation { font-size: 280%; opacity: 0.5; color: white; cursor: inherit; }
+      #image-reel a.headline.reel-annotation { color: white; }
+    </style>
+
+  </head>
+  <body>
+    <img src="outlook.jpg" width="590" height="150"
+      class="reel"
+      id="image"
+      data-image="outlook-reel.jpg"
+      data-orientable="true"
+      data-stitched="1652"
+      data-cursor="hand">
+
+  </body>
+</html>
+
